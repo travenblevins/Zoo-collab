@@ -1,5 +1,5 @@
 body {
-    background-image:url(/Users/admin/Desktop/Zoo-collab/Background.jpg);
+    background-image:url(/Zoo-collab/Background.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     padding: 0;
@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
 
 
@@ -21,4 +22,5 @@ body {
     border: solid 2px black;
     height: 500px;
     width: 400px;
+    background-color: #fff;
 }
