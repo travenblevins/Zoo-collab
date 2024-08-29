@@ -36,6 +36,11 @@ body {
 }
 
 .contact-form label, .contact-form input {
-    margin-top: 20px;
+    margin-top: 30px;
     height: 20px;
+}
+
+.contact-form .submit-button {
+    font-size: 20px;
+    height: 30px;
 }
