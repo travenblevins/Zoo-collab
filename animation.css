@@ -1,9 +1,5 @@
 body {
-<<<<<<< HEAD
     background-image:url(Background.jpg);
-=======
-    background-image:url(/Zoo-collab/Background.jpg);
->>>>>>> 0a49a801e4e205f0b907b8f221f709a0f8709d8b
     background-repeat:no-repeat;
     background-size:cover;
     padding: 0;
@@ -26,7 +22,6 @@ body {
     border: solid 2px black;
     height: 500px;
     width: 400px;
-<<<<<<< HEAD
 }
 
 @keyframes crocodile {
@@ -48,7 +43,6 @@ body {
 
 .crocodile {
     animation: crocodile 2s ease-in-out infinite;
-=======
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 1%, rgba(12,196,71,1) 20%);
 }
@@ -70,5 +64,4 @@ body {
 .contact-form .submit-button {
     font-size: 20px;
     height: 30px;
->>>>>>> 0a49a801e4e205f0b907b8f221f709a0f8709d8b
 }
