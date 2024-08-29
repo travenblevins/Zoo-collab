@@ -1,5 +1,5 @@
 body {
-    background-image:url(/Users/admin/Desktop/Zoo-collab/Background.jpg);
+    background-image:url(Background.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     padding: 0;
@@ -21,4 +21,25 @@ body {
     border: solid 2px black;
     height: 500px;
     width: 400px;
+}
+
+@keyframes crocodile {
+    from {
+        transform:translate(0px);
+    }
+    to {
+        transform:translate(1000px)
+    }
+}
+
+
+.crocodile img {
+    position:relative;
+    display:flex;
+    height:300px;
+    width:300px;
+}
+
+.crocodile {
+    animation: crocodile 2s ease-in-out infinite;
 }
