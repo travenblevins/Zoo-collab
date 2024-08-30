@@ -76,10 +76,14 @@ body {
 }
 
 @keyframes dino {
-    from {
+    0%,
+    20%,
+    50%,
+    80%,
+    100%{
         transform:translate(0px);
     }
-    to {
+    50% {
         transform:translate(1000px)
     }
 }
