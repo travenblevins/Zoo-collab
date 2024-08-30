@@ -71,6 +71,8 @@ body {
     display:flex;
     height:300px;
     width:300px;
+    top: -1000px;
+    left: -400px;
 }
 
 @keyframes dino {
