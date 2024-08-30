@@ -91,3 +91,25 @@ body {
 .dino {
     animation: dino 4s infinite 2s alternate ;
 }
+
+.lastdino img {
+    position:relative;
+    display:flex;
+    height:300px;
+    width:300px;
+    top: -500px;
+    right: -100px;
+}
+
+.lastdino {
+    animation: lastdino 4s infinite 2s alternate ;
+}
+
+@keyframes lastdino {
+    0% {
+        transform: rotate(0);
+      }
+      100% {
+        transform: rotate(360deg);
+      }    
+}
