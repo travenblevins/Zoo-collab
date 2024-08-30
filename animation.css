@@ -78,3 +78,56 @@ body {
 .toy {
     animation: toy 2s ease-in-out infinite;
 }
+
+.contact-form .submit-button {
+    font-size: 20px;
+    height: 30px;
+}
+
+.dino img {
+    position:relative;
+    display:flex;
+    height:300px;
+    width:300px;
+    top: -500px;
+    left: -400px;
+}
+
+@keyframes dino {
+    0%,
+    20%,
+    50%,
+    80%,
+    100%{
+        transform:translate(0px);
+    }
+    50% {
+        transform:translate(1000px)
+    }
+}
+
+.dino {
+    animation: dino 4s infinite 2s alternate ;
+}
+
+.lastdino img {
+    position:relative;
+    display:flex;
+    height:300px;
+    width:300px;
+    top: -1300px;
+    right: -100px;
+}
+
+.lastdino {
+    animation: lastdino 4s infinite 2s alternate ;
+}
+
+@keyframes lastdino {
+    0% {
+        transform: rotate(0);
+      }
+      100% {
+        transform: rotate(360deg);
+      }    
+}
