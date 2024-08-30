@@ -26,13 +26,13 @@ body {
 }
 
 .contact-form h2 {
-    color: white;
+color: black;
     margin-top: 100px;
-    margin-left: 20px;
+    text-decoration: underline;
 }
 
 .contact-form label, .contact-form input {
-    margin-top: 30px;
+    display: block;
 }
 
 
@@ -79,10 +79,6 @@ body {
     animation: toy 2s ease-in-out infinite;
 }
 
-.contact-form .submit-button {
-    font-size: 20px;
-    height: 30px;
-}
 
 .dino img {
     position:relative;
