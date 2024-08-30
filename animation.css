@@ -4,6 +4,7 @@ body {
     background-size:cover;
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -17,11 +18,23 @@ body {
 .contact-form {
     display: flex;
     justify-content: center;
-    align-items: center;
     border: solid 2px black;
     height: 500px;
     width: 400px;
+    background-color:rgba(60, 179, 114, 0.9);
 }
+
+.contact-form h2 {
+    color: white;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.contact-form label, .contact-form input {
+    margin-top: 30px;
+}
+
+
 
 @keyframes crocodile {
     from {
