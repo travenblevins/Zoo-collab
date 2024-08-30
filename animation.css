@@ -21,21 +21,19 @@ body {
     border: solid 2px black;
     height: 500px;
     width: 400px;
-    background-color:rgba(60, 179, 114, 0.9);
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(139,203,12,1) 43%);
 }
 
 .contact-form h2 {
-    color: white;
+color: black;
     margin-top: 100px;
-    margin-left: 20px;
+    text-decoration: underline;
 }
 
 .contact-form label, .contact-form input {
-    margin-top: 30px;
+    display: block;
 }
-
-
-
 @keyframes crocodile {
     from {
         transform:translate(0px);
