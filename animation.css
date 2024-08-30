@@ -57,6 +57,7 @@ color: black;
 
 .crocodile {
     animation: crocodile 2s ease-in-out infinite;
+    width: 300px;
 }
 
 .toy img {
