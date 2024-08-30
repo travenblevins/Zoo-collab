@@ -8,7 +8,6 @@ body {
 
 .container {
     display: flex;
-    flex-direction:column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -42,6 +41,27 @@ body {
     width:300px;
 }
 
+
 .crocodile {
     animation: crocodile 2s ease-in-out infinite;
+}
+
+.toy img {
+    position:relative;
+    display:flex;
+    height:300px;
+    width:300px;
+}
+
+@keyframes toy {
+    from {
+        transform:translateY(0px);
+    }
+    to {
+        transform:translateY(-1000px)
+    }
+}
+
+.toy {
+    animation: toy 2s ease-in-out infinite;
 }
