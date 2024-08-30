@@ -71,7 +71,7 @@ body {
     display:flex;
     height:300px;
     width:300px;
-    top: -1000px;
+    top: -500px;
     left: -400px;
 }
 
@@ -97,7 +97,7 @@ body {
     display:flex;
     height:300px;
     width:300px;
-    top: -500px;
+    top: -1300px;
     right: -100px;
 }
 
