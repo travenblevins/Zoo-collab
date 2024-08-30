@@ -65,3 +65,23 @@ body {
     font-size: 20px;
     height: 30px;
 }
+
+.dino img {
+    position:relative;
+    display:flex;
+    height:300px;
+    width:300px;
+}
+
+@keyframes dino {
+    from {
+        transform:translate(0px);
+    }
+    to {
+        transform:translate(1000px)
+    }
+}
+
+.dino {
+    animation: dino 4s infinite 2s alternate ;
+}
