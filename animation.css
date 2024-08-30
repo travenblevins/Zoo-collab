@@ -21,6 +21,7 @@ body {
     border: solid 2px black;
     height: 500px;
     width: 400px;
+    background-color:white;
 }
 
 @keyframes crocodile {
